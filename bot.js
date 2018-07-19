@@ -12,6 +12,7 @@ const prefix = '2';
 client.on('ready', function() {
 	console.log(`i am ready ${client.user.username}`);
 	console.log('work');
+	client.user.setUsername('「 2Play 」');
 	client.user.setGame(`${prefix}Play | SmileServer`, 'https://twitch.tv/JSmileServer');
 	
 });
